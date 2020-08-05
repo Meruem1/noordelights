@@ -1,0 +1,141 @@
+@charset "ISO-8859-1";
+
+
+*{
+/* 	margin: 0px; */
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+		margin: 0px;
+	font-size: 20px;
+	overflow-x: hidden;
+	/* color:white; */
+	font-family: 'Flamenco', cursive;
+/* 	animation: slide 2s; */
+background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+
+}
+
+
+.slider
+{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+	width:100%;
+	animation: slide 10s infinite; 
+}
+
+/* .load
+{
+	 animation: slide 2s; 
+}
+ */
+.clearfix:after{
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0px;
+	clear: both;
+	/* animation: slide 3s infinite; */
+}
+
+.row{
+	max-width: 1180px;
+	margin: 0 auto;
+}
+
+.logo{
+	height: 120px;
+	width: auto;
+	float: left;
+	margin-top: 20px;
+}
+
+.main-nav{
+	float: right;
+	margin-top: 60px;
+}
+
+.main-nav li{
+	display: inline-block;
+	list-style: none;
+	margin-left: 40px;
+}
+
+.main-nav li a{
+	padding: 5px 0;
+	color: pink;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 90%; 
+	font-weight: 100;
+}
+
+
+
+.main-nav li a:hover
+{
+	border-bottom: 2px solid #bf55ec;
+}
+
+.sub-menu 
+{
+	display:none;
+
+}
+
+
+.main-nav :hover.sub-menu ul a
+{
+	display: block;
+	position: absolute;
+	background:rgb(0,100,0);
+	margin-top:15px;
+	margin-left:-15px;
+	}
+
+
+
+
+html{
+/* background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../img/cake3.jpg'); */
+}
+h2 {
+    font-family: Arial, Verdana;
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+}
+/* .accordion-section .panel-default > .panel-heading {
+    border: 0;
+    background: #ffffff;
+    padding: 0;
+}
+.accordion-section .panel-default .panel-title a {
+    display: block;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+.accordion-section .panel-default .panel-title a:after {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-size: 3rem;
+    content: "\f106";
+    color: #ff80ff;
+    float: right;
+    margin-top: -12px;
+}
+.accordion-section .panel-default .panel-title a.collapsed:after {
+    content: "\f107";
+}
+.accordion-section .panel-default .panel-body {
+    font-size: 1.2rem;
+} */

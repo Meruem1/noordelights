@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+<elements>
+<servlet>
+<servlet-name>Loginservlet</servlet-name>
+<servlet-class>Loginservlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>Loginservlet</servlet-name>
+<url-pattern>/s1</url-pattern>
+</servlet-mapping>
+
+
+<session-config>
+<session-timeout>1</session-timeout>
+</session-config>
+</elements>
+</web-app>

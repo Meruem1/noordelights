@@ -1,0 +1,141 @@
+@charset "ISO-8859-1";
+
+*{
+  margin: 0;
+  padding: 0;
+ /*  	box-sizing: border-box; */
+  font-family: "montserrat",sans-serif;
+}
+
+header{
+	/* background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7),url('../img/cake2.jpg')); */
+	 background-image: url('../img/c21.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	/* height: 100vh; */
+/* 	animation: slide 10s infinite;  */ 
+}
+
+.row{
+	max-width: 1180px;
+	margin: 0 auto;
+}
+
+.contact-section{
+ /*  background: url("../img/c23.jpg") no-repeat center; */
+  background-size: cover;
+  padding: 150px 0;
+  text-align: center;
+}
+.contact-section h1{
+  text-align: center;
+  color: #ddd;
+}
+.border{
+  width: 200px;
+  height: 3px;
+/*   background: #34495e; */
+  background: #8c8194;
+  margin: 40px auto;
+}
+
+.contact-form{
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.contact-form-text{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 20px 30px 0px 0px;
+  border: 0;
+  background: #111;
+  padding: 20px 40px;
+  outline: none;
+  color: #ddd;
+  transition: 0.5s;
+}
+.contact-form-text:focus{
+  box-shadow: 0 0 10px 4px #34495e;
+}
+textarea.contact-form-text{
+  resize: none;
+  height: 220px;
+}
+.contact-form-btn{
+  float: right;
+  border: 0;
+  background: #34495e;
+  color: #fff;
+  padding: 12px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.contact-form-btn:hover{
+  background: #2980b9;
+}
+
+
+
+
+.logo{
+	height: 120px;
+	width: auto;
+	float: left;
+	margin-top: 20px;
+}
+
+.main-nav{
+	float: right;
+	margin-top: 60px;
+}
+
+.main-nav li{
+	display: inline-block;
+	list-style: none;
+	margin-left: 40px;
+}
+
+.main-nav li a{
+	padding: 5px 0;
+	color: pink;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 90%; 
+	font-weight: 100;
+}
+
+
+
+.main-nav li a:hover
+{
+	border-bottom: 2px solid #bf55ec;
+}
+     
+     
+     
+
+.main-nav :hover.sub-menu ul a
+{
+	display: block;
+	position: absolute;
+	background:rgb(0,100,0);
+	margin-top:15px;
+	margin-left:-15px;
+	}
+
+     .main-content-header{
+	width: 1180px;
+	padding:0 2%;
+	position: absolute;
+	/*border: 1px solid red;*/
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
